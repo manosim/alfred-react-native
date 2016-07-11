@@ -1,0 +1,28 @@
+{
+  "name": "alfred-react-native",
+  "version": "0.0.1",
+  "description": "Access the React Native Documentation from Alfred",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekonstantinidis/alfred-react-native.git"
+  },
+  "keywords": [
+    "alfred",
+    "workflow",
+    "react-native",
+    "documentation"
+  ],
+  "author": "Emmanouil Konstantinidis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ekonstantinidis/alfred-react-native/issues"
+  },
+  "homepage": "https://github.com/ekonstantinidis/alfred-react-native#readme",
+  "dependencies": {
+    "alfy": "^0.1.1"
+  }
+}
