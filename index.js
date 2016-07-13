@@ -132,12 +132,13 @@ const toc = [
   }
 ];
 
-const output = toc
-  .filter(doc => doc.title.toLowerCase().indexOf(alfy.input.toLowerCase()) > -1)
+const output = alfy
+  .inputMatches(toc, 'title')
   .map(doc => {
     return {
       title: doc.title,
-      arg: rn_website + doc.url + '.html'
+      arg: rn_website + doc.url + '.html',
+      subtitle: rn_website + doc.url + '.html'
     };
   });
 
