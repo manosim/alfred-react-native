@@ -7,6 +7,10 @@ const toc = [
     url: 'activityindicator'
   },
   {
+    title: 'Button',
+    url: 'button'
+  },
+  {
     title: 'DatePickerIOS',
     url: 'datepickerios'
   },
@@ -15,8 +19,20 @@ const toc = [
     url: 'drawerlayoutandroid'
   },
   {
+    title: 'FlatList',
+    url: 'flatlist'
+  },
+  {
     title: 'Image',
     url: 'image'
+  },
+  {
+    title: 'InputAccessoryView',
+    url: 'inputaccessoryview'
+  },
+  {
+    title: 'KeyboardAvoidingView',
+    url: 'keyboardavoidingview'
   },
   {
     title: 'ListView',
@@ -25,6 +41,10 @@ const toc = [
   {
     title: 'MapView',
     url: 'mapview'
+  },
+  {
+    title: 'MaskedViewIOS',
+    url: 'maskedviewios'
   },
   {
     title: 'Modal',
@@ -59,6 +79,10 @@ const toc = [
     url: 'refreshcontrol'
   },
   {
+    title: 'SectionList',
+    url: 'sectionlist'
+  },
+  {
     title: 'ScrollView',
     url: 'scrollview'
   },
@@ -69,10 +93,6 @@ const toc = [
   {
     title: 'Slider',
     url: 'slider'
-  },
-  {
-    title: 'SliderIOS',
-    url: 'sliderios'
   },
   {
     title: 'StatusBar',
@@ -125,6 +145,10 @@ const toc = [
   {
     title: 'ViewPagerAndroid',
     url: 'viewpagerandroid'
+  },
+  {
+    title: 'VirtualizedList',
+    url: 'virtualizedlist'
   },
   {
     title: 'WebView',
